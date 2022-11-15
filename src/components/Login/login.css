@@ -1,0 +1,97 @@
+.login-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form{
+    height: 100%;
+    width: 60%;
+    display: grid;
+    place-items: center;
+}
+
+.login-form-center{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-form-center > span{
+    margin-block: 1rem;
+}
+
+.login-form-div{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-form-div label{
+    width: 70%;
+    margin-bottom: 1.5rem;
+}
+.login-form-div input{
+    width: 100%;
+    margin-top: 0.4rem;
+    text-indent: 1rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid silver;
+}
+
+.login-form-div button{
+    width: 70%;
+    margin-block: 1rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #52459d;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.login-form-div input:focus, .login-form-div input:valid{
+    border: 2px solid #52459d;
+    outline: #52459d;
+}
+
+.login-card{
+    height: 100%;
+    width: 40%;
+    background-color: #52459d;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    padding: 2.5%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login-card  span, p{
+    color: #bcb7d7;
+    font-size: 0.9rem;
+}
+
+.login-card  h1{
+    color: #8ae2f6;
+}
+
+.login-box{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4 > a{
+    color: #52459d;
+}
+
